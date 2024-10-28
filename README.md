@@ -17,16 +17,16 @@ A timer application designed for policy debate rounds that integrates with Neovi
 - Update functionality via HTTP requests to reflect changes in the current buffer.
 
 ## File Structure
-speechify/
-├── lua/
-│   └── plugins/
-│       └── speechify.lua          # Neovim plugin Lua file
-├── css/
-│   └── universal.css              # CSS file for formatting the speech document
-├── python/
-│   └── timer_app.py               # Python script for the timer GUI and webview
-├── install.sh                     # Installation script for dependencies
-└── README.md                      # Documentation file with instructions for setup and use
+    speechify/
+    ├── lua/
+    │   └── plugins/
+    │       └── speechify.lua          # Neovim plugin Lua file
+    ├── css/
+    │   └── universal.css              # CSS file for formatting the speech document
+    ├── python/
+    │   └── timer_app.py               # Python script for the timer GUI and webview
+    ├── install.sh                     # Installation script for dependencies
+    └── README.md                      # Documentation file with instructions for setup and use
 
 Installation Instructions
 Prerequisites
