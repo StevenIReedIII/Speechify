@@ -1,0 +1,14 @@
+/* Set default font size for the entire body */
+body {
+    font-size: 16px;
+}
+
+/* Shrink font size of unformatted text */
+p, div, span {
+    font-size: 0.5em; /* Shrinks to 80% of base size */
+}
+
+/* Exclude formatted and highlighted elements from shrinking */
+strong, em, b, i, code, pre, mark, .highlight {
+    font-size: 16px; /* Keeps original or larger size */
+}
